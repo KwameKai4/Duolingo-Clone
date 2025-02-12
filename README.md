@@ -12,43 +12,6 @@ This project is a language learning application inspired by Duolingo, built usin
 
 ## Project Structure
 
-```
-duolingo-clone
-├── src
-│   ├── app
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   ├── (auth)
-│   │   │   ├── login
-│   │   │   └── register
-│   │   ├── (dashboard)
-│   │   │   ├── courses
-│   │   │   ├── lessons
-│   │   │   └── progress
-│   │   └── api
-│   │       ├── auth
-│   │       ├── lessons
-│   │       └── progress
-│   ├── components
-│   │   ├── ui
-│   │   ├── lesson
-│   │   └── language-selector
-│   ├── lib
-│   │   ├── db.ts
-│   │   └── ai.ts
-│   ├── types
-│   │   └── index.ts
-│   └── utils
-│       └── helpers.ts
-├── prisma
-│   └── schema.prisma
-├── public
-│   └── locales
-├── package.json
-├── next.config.js
-├── tsconfig.json
-└── README.md
-```
 
 ## Getting Started
 
